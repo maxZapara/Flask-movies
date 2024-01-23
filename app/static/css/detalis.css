@@ -1,0 +1,136 @@
+body{
+    background: black;
+    
+}
+
+.nav{
+    width: 100%;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background: linear-gradient(to right,rgba(0, 0, 0, 0),rgba(7, 117, 169, 0.777));
+
+}
+
+.nav-title {
+    margin-left: 2%;
+    width: 10%;
+    font-size: 30px;
+    font-family:'griffy',cursive;
+    color: rgb(24, 147, 175);
+}
+
+.nav-list{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 20px;
+    font-weight: 600;
+    color:#A1B1CB;
+}
+
+.nav-list li a.active{
+    color:white;
+}
+
+.nav-profile{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-profile input{
+    border-radius: 10px;
+    background-color: #195978;
+    color:white;
+    font-size:21px;
+    padding-left: 15px;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    color:azure;
+}
+
+.headers{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header img{
+    width: 40%;
+}
+
+.header_desc{
+    display: flex;
+    flex-direction: colomn;
+    color:rgb(33, 127, 194);
+    font-family:'griffy',cursive;
+}
+
+.movie-rate{
+    display: flex;
+    color:rgb(85, 221, 221);
+}
+
+.movie-date{
+    display: flex;
+    color:rgb(85, 221, 221);
+}
+
+.movie-overview{
+    display: flex;
+    color:azure;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.simmilar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.rec-movie-rate{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.rec-title{
+    display: flex;
+    margin-top: 50px;
+}
+
+.rec-movie{
+    width: 150px;
+    height: 400px;
+}
+
+.rec-movie a img{
+    width: 200px;
+}
+
+svg.liked{
+    color: red;
+}
+
+.comment{
+    margin-top: 90px;
+    background-color: #195978;
+    color:white;
+}
