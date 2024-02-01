@@ -17,7 +17,7 @@
       {% endif %}
       <div class="nav-profile">
         <input type="text" placeholder="Search"/>
-        <a href="/profile"><img src="/static/bell 1.png"></img></a>
+        <a href="{{ url_for('main.profile') }}"><img src="/static/bell 1.png"></img></a>
         <img src="/static/gift 1.png"></img>
       </div>
 </div>
@@ -73,7 +73,7 @@
   </div>
   <div class="top-title">
     <h1>TOP</h1>
-    <a href="{{ url_for('main.main_site') }}" class="show">Show</a>
+    <a href="{{ url_for('main.base2_path') }}" class="show">Show</a>
   </div>
   <div class="top">
     {% for movie in popular %}
