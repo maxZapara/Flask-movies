@@ -8,7 +8,7 @@
   <h1 class="nav-title">Zaprar</h1>
 
   <ul class="nav-list">
-      <li><a href="http://127.0.0.1:5000/" class="active">Home</a></li>
+      <li><a href="{{ url_for('main.main_site') }}" class="active">Home</a></li>
       <li><a href="">Movie List</a></li>
       <li><a href="">Detalis</a></li>
       </ul>
@@ -39,7 +39,7 @@
   
   <div class="upc-title">
     <h1>Upcoming movies</h1>
-    <a href="http://127.0.0.1:5000/upcoming" class="show">Show</a>
+    <a href="{{ url_for('main.base2_path') }}" class="show">Show</a>
   </div>
   <div class="upcoming">
     {% for movie in movies %}
@@ -56,7 +56,7 @@
   </div>
   <div class="rec-title">
     <h1>Recomended for you</h1>
-    <a href="http://127.0.0.1:5000/popular" class="show">Show</a>
+    <a href="{{ url_for('main.base_path') }}" class="show">Show</a>
   </div>
   <div class="recomended">
     {% for movie in popular %}
@@ -73,7 +73,7 @@
   </div>
   <div class="top-title">
     <h1>TOP</h1>
-    <a href="http://127.0.0.1:5000/popular" class="show">Show</a>
+    <a href="{{ url_for('main.main_site') }}" class="show">Show</a>
   </div>
   <div class="top">
     {% for movie in popular %}
